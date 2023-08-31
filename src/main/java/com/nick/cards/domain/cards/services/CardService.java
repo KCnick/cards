@@ -21,5 +21,4 @@ public interface CardService {
 
     ResponseEntity<MessageResponse> get(UUID guid, HttpServletRequest request) throws Exception;
 
-
 }

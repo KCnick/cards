@@ -48,7 +48,7 @@ public class Card extends Auditable implements Serializable {
     @Column(name = "description", length = 1000)
     private String description;
 
-    @Column(length = 20, unique = true, name = "status")
+    @Column(length = 20, name = "status")
     private String status;
 
     @ManyToOne
